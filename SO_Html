@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <style>
+
+
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            /* height: 100%;*/
+            background-color: white;
+        }
+
+        @page {
+            size: A3;
+            margin: 2px;
+        }
+
+        .page {
+            width: 21cm; /* A4 width */
+            font-family: "Segoe UI" !important;
+            min-height: 29.7cm; /* A4 height */
+            margin: 0 auto;
+            margin-bottom: 0 !important;
+            padding-right: 0.1in; /* Add padding to avoid content touching the border */
+            padding-left: 0.1in;
+            border: 1px solid !important;
+            background: white;
+            border-color: black;
+            overflow: visible; /* Prevent content overflow */
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            text-align: left;
+            font-family: "Segoe UI" !important;
+            font-weight: 300 !important;
+        }
+
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6 {
+            margin: 0 !important;
+            font-family: "Segoe UI" !important;
+            font-weight: 300 !important;
+            text-align: left;
+        }
+
+        .logo {
+            width: 200px;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            height: 22px;
+            position: static;
+        }
+
+        /* Flexbox layout */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            font-family: "Segoe UI" !important;
+            padding: 0px !important;
+            border: 0px;
+            margin: 0px 0 2pt 0;
+            font-weight: 400 !important;
+        }
+
+        .column {
+            flex: 1;
+            height: auto;
+        }
+
+        #col1 {
+            padding-right: 2.5px;
+        }
+
+        #col2 {
+            padding-left: 2.5px;
+        }
+
+        .contacts {
+            font-size: 6pt;
+            width: 100%;
+            font-family: "Segoe UI" !important;
+            margin: 0;
+            height: 66px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: start;
+            padding-bottom: 3px;
+        }
+
+        table {
+            table-layout: auto;
+            font-family: "Segoe UI" !important;
+        }
+
+
+        .tablerow1 {
+            font-family: "Segoe UI" !important;
+            height: 175.375px;
+            border-collapse: collapse;
+            table-layout: fixed;
+            border: 1px solid black;
+        }
+
+        .tdh {
+            background-color: lightgray;
+            font-weight: bold;
+            font-size: 11px !important;
+        }
+
+        td {
+            padding: 5px;
+            word-wrap: break-word;
+            font-family: "Segoe UI" !important;
+        }
+
+        .tdhSO {
+            background-color: lightgray;
+            font-weight: bold;
+            font-family: "Segoe UI" !important;
+            font-size: 11px;
+            width: 1.2in !important;
+        }
+
+        thead {
+            font-size: 11px;
+            vertical-align: top;
+            font-family: "Segoe UI" !important;
+        }
+
+        .headerr {
+            height: 1.41278in;
+            font-family: 'Segoe UI' !important;
+            position: relative;
+        }
+
+        .heading {
+            width: 100%;
+            bottom: 0;
+            position: absolute;
+            font-size: 22px;
+            font-weight: bold !important;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        .logo {
+            width: 2.42903in;
+            height: 0.47861in;
+            float: left;
+        }
+
+        .product-image {
+            width: 0.34913in;
+            height: 0.51516in;
+            align-items: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="page" id="page">
+
+
+
+        <div id="headerr" class="headerr" style="margin: 0 !important;">
+            <img class="logo" src="https://apps.sanipexgroup.com/Content/Images/sanipex-group-logo.svg">
+            <p style="float: right; font-size: 11px; display: flex; text-align: right; margin:  0 !important; padding-top: 5px;">
+                Aquazone L.L.C (Branch) <br>
+                Umm Suqeim Street<br>
+                P.O. Box no. 102649<br>
+                Dubai, UAE<br>
+                t 800 AQUA (2782) <br>
+                info@sanipexgroup.com <br>
+                www.sanipexgroup.com
+            </p>
+            <h1 class="heading">ORDER ACKNOWLEDGEMENT</h1>
+        </div>
+
+        <div style="/* height: 22.943947cm !important; */margin: 0 !important;">
+            <div style="height: auto;" id="row1" class="row">
+
+                <table style="  text-align: center;  font-size: 11px !important;     width: 0.94in;  margin: 0 10px 0px 0px;   " class="tablerow1">
+                    <tbody>
+                        <tr style="height: 0.72cm; overflow: hidden; white-space: nowrap; ">
+                            <td class="tdh">Date</td>
+                        </tr>
+                        <tr style="height: 0.72cm">
+                            <td>10/06/2024</td>
+                        </tr>
+                        <tr style="height: 0.72cm">
+                            <td class="tdh">Date required</td>
+                        </tr>
+                        <tr style="height: 0.72cm">
+                            <td>10/07/2024</td>
+                        </tr>
+                        <tr style="height: 0.72cm">
+                            <td class="tdh">Currency</td>
+                        </tr>
+                        <tr style="     height: 0.72cm;    font-weight: bold;    font-size: 18px !important;    ">
+                            <td>AED</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <table style=" text-align: left; font-size: 11px; width: 8.5237574cm; margin: 0 10px 0px 4px; " class="tablerow1">
+                    <tbody>
+                        <tr style="height: 0.72cm !important; overflow: hidden !important; white-space: nowrap !important; ">
+                            <td class="tdh">Invoice address:</td>
+                        </tr>
+                        <tr style="height: 3.6cm; vertical-align: top !important;">
+                            <td>
+                                <strong>GREEN COMMUNITY HOLDINGS LTD</strong><br>
+                                Office 8 One Space Business Center, Al Thuraya Tower, Al Barsha Heights, Dubai
+                                P. O. Box 123857,UAE <br>
+
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+
+                <table style=" text-align: left; font-size: 11px; width: 8.75cm; margin: 0 0px 0px 4px; " class="tablerow1">
+                    <tbody>
+                        <tr style="height: 0.72cm !important; overflow: hidden; white-space: nowrap; ">
+                            <td class="tdh">Delivery address:</td>
+                        </tr>
+                        <tr style="height: 3.6cm; vertical-align: top !important;">
+                            <td>
+                                <strong>GREEN COMMUNITY HOLDINGS LTD</strong><br>
+                                TECH DEPT JA
+                                United Arab Emirates <br>
+
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div id="row2" class="row">
+                <table style="border-collapse: collapse;  table-layout: fixed;  border: 1px solid black; width: 100%; height: 0.94168in; margin: 2px 1px 1px 1px; font-size: 11px;">
+                    <tbody>
+                        <tr>
+                            <td class="tdhSO">Sales order no.</td>
+                            <td>SFZE-SO-000379497</td>
+                            <td class="tdhSO">Customer reference</td>
+                            <td>ACC/DEEMA</td>
+                            <td class="tdhSO">Division</td>
+                            <td>Retail</td>
+                        </tr>
+                        <tr>
+                            <td class="tdhSO">Delivery</td>
+                            <td>TO BE CONFIRMED</td>
+                            <td class="tdhSO">Sales person</td>
+                            <td>Mohamad Jandia</td>
+                            <td class="tdhSO">Sales admin</td>
+                            <td>Mohamad Jandia</td>
+                        </tr>
+                        <tr>
+                            <td class="tdhSO">Payment terms</td>
+                            <td>CASH IN ADVANCE</td>
+                            <td class="tdhSO">Customer VAT no.</td>
+                            <td>104036994200003</td>
+                            <td class="tdhSO">Delivery availability</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div id="row3" class="row" style="page-break-after: always;">
+                <table id="lines" style=" border-top: 1px solid black !important;margin-top: 5px;border-collapse: collapse;">
+                    <thead style="padding-bottom: 5px;">
+                        <tr>
+                            <th style="width: 0.336in;"></th>
+                            <th style="width: 1.20809in; text-align: left;">Article number</th>
+                            <th style="width: 1.81186in; text-align: left;">Description</th>
+                            <th style="width: 0.59863in; text-align: left;">WH</th>
+                            <th style="width: 0.46506in; ">Stock<br>Status</th>
+                            <th style="width: 0.5249in; text-align: right;">Reserved qty</th>
+                            <th style="width: 0.44587in; text-align: right;">Order qty</th>
+                            <th style="width: 0.32112in;">Unit</th>
+                            <th style="width: 0.45494in; text-align: right;">RRP</th>
+                            <th style="width: 0.65199in;text-align: right;">Disc.<br>%</th>
+                            <th style="width: 0.64423in; text-align: right;">Value<br>(Ex VAT)</th>
+                            <th style="width: 0.44711in;text-align: right;">VAT<br>Value</th>
+                            <th style="width: 0.64423in;text-align: right;">Value<br>(Inc VAT)</th>
+                        </tr>
+
+                        <tr class="merged-row" style="background-color: lightgray; border-top: 2pt black solid !important; ">
+                            <td colspan="12" style="background-color: lightgray; "></td>
+                            <td style="background-color: lightgray; color: red;font-size: 12px; font-weight: bold; text-align: right;">2,218.50</td>
+
+                        </tr>
+
+                        <tr class="merged-row">
+                            <td colspan="12"></td>
+                            <td style="color: blue; font-weight: bold; text-align: right; font-size: 12px;">2,218.50</td>
+                        </tr>
+
+                    </thead>
+                    <tbody style="font-size: 6.5pt !important; font-weight: 400 !important;">
+
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-MLI-412-A-NB.jpg"></td>
+                            <td style="text-align:left; "> SXM-CAR-K35A-HWS </td>
+                            <td style="text-align: left;">KEROX CARTRIDGE K-35A HWS</td> <!-- Left-align the description for better readability -->
+                            <td></td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;">4.00</td>
+                            <td style="text-align: right;">4.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">114.29</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">388.59</td>
+                            <td style="text-align: right;">19.43</td>
+                            <td style="text-align: right;">408.02</td>
+                        </tr>
+
+
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                    
+                   
+                   
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-TOK-703-A-NB.jpg"></td>
+                            <td style="text-align:left;">BDA-TOK-703-A-NB</td>
+                            <td style="text-align: left;">TOKO TOWEL RAIL 400MM BRUSHED NICKEL</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;"></td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">542.86</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">922.86</td>
+                            <td style="text-align: right;">46.14</td>
+                            <td style="text-align: right;">969.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-MLI-712-E-MB.jpg"></td>
+                            <td style="text-align:left;">BDA-MLI-712-E-MB</td>
+                            <td style="text-align: left;">M-LINE TOWEL RAIL 450MM MATT BLACK</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;">2.00</td>
+                            <td style="text-align: right;">2.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">261.90</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">445.23</td>
+                            <td style="text-align: right;">22.26</td>
+                            <td style="text-align: right;">467.49</td>
+                        </tr>
+                        <tr>
+                            <td><img class="product-image" src="https://files.sanipexgroup.com/product files/Product images\BDA-OPT-RO-706-MB.jpg"></td>
+                            <td style="text-align:left;">BDA-OPT-RO-706-MB</td>
+                            <td style="text-align: left;">OPTIONS ROUND SINGLE ROBE HOOK MATT BLACK</td> <!-- Left-align the description for better readability -->
+                            <td>W-JA</td>
+                            <td>Saleable</td>
+                            <td style="text-align: right;">4.00</td>
+                            <td style="text-align: right;">4.00</td>
+                            <td>EACH</td>
+                            <td style="text-align: right;">104.76</td>
+                            <td style="text-align: right;">15.00%</td>
+                            <td style="text-align: right;">356.18</td>
+                            <td style="text-align: right;">17.81</td>
+                            <td style="text-align: right;">373.99</td>
+                        </tr>
+
+
+
+                    </tbody>
+                </table>
+            </div>
+            <div id="row5" class="row" style="float: right !important; display: flex; justify-content: flex-end; ">
+                <table style=" font-size: 8pt !important; font-weight: 400; float:right ;  border: 0.5pt solid black  !important; margin-top: 5px; border-collapse: collapse;">
+                    <tbody>
+
+                        <tr>
+
+                            <td colspan="5" style="background-color: lightgray; text-align: right;  ">Total amount (Excl. VAT)</td>
+
+                            <td style=" text-align: center;">AED</td>
+                            <td style=" text-align: right;">2,485.72</td>
+                        </tr>
+                        <tr>
+
+                            <td colspan="5" style="background-color: lightgray; text-align: right;">Discount</td>
+
+                            <td style=" text-align: center;">AED</td>
+                            <td style="text-align: right;">372.86</td>
+                        </tr>
+                        <tr>
+
+                            <td colspan="5" style="background-color: lightgray; text-align: right; ">VAT Amount</td>
+
+                            <td style=" text-align: center;">AED</td>
+                            <td style=" text-align: right;">105.64</td>
+                        </tr>
+                        <tr style="font-weight: bold;  ">
+
+                            <td colspan="5" style="background-color: lightgray; text-align: right; border-top: 1pt solid black !important;">Net Amount</td>
+
+                            <td style=" text-align: center; border-top: 1pt solid black !important;">AED</td>
+                            <td style="font-weight: bold; text-align: right; border-top: 1pt solid black !important;">2,218.50</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+
+
+
+
+        </div>
+        <div class="contacts" style=" width: 100%;">
+            <div style="border: 0.5pt black solid; padding: 3px; width: 100% !important; ">
+                <p style="color:black; margin: 0 !important; ">
+                    Please send all remittances for payments and queries to:
+                    <a href="mailto:info@sanipexgroup.com" style="color: blue; text-decoration: none !important; font-weight: bold; padding-right: 10px;">info@sanipexgroup.com</a>
+                    Terms &amp; Conditions 
+                    <a href="https://www.sanipexgroup.com/c/terms-and-conditions" style="color: blue; text-decoration: none !important; font-weight: bold">www.sanipexgroup.com/c/terms-and-conditions</a> <br><br>
+                    Please remit to our bank as follows unless your invoice specifically states an account number to remit to : <br><br>
+                    A/c Name : AQUAZONE LLC  A/c No : 101 41759240 01  Bank.Name : EMIRATES NBD     IBAN : AE170260001014175924001   BIC Code : EBILAEAD      Sort Code :
+                </p>
+            </div>
+        </div>
+        <table style="    width: 100%;  padding: 5px;        height: 0.175in; ">
+            <tbody>
+                <tr>
+                    <td style="font-size: 8pt; width: 33%;">VAT No. 100244993000003</td>
+                    <td style="font-size: 8pt; text-align: center; width: 33%;">Page 1 of 1</td>
+                    <td style="width: 33%; align-items: center;"><img src="" alt="arabic logo"></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+
+
+</body>
+</html>
